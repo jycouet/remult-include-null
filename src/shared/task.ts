@@ -1,4 +1,5 @@
-import { Allow, Entity, Fields, Validators } from "remult";
+import { Allow, Entity, Fields, Validators, Relations } from "remult";
+import { Category } from "./category";
 
 @Entity("tasks", {
   allowApiCrud: true,
@@ -17,4 +18,10 @@ export class Task {
   title = "";
   @Fields.boolean()
   completed = false;
+
+  @Fields.number({ allowNull: true })
+  categoryId?: number;
+
+  @Relations.toOne(() => Category, { field: "categoryId" })
+  category?: Category;
 }

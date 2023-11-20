@@ -12,8 +12,8 @@ dependencies:
     specifier: 0.3.1
     version: 0.3.1(@sveltejs/kit@1.27.6)(svelte@4.2.7)
   remult:
-    specifier: ^0.22.10
-    version: 0.22.10
+    specifier: 0.23.0-exp.26
+    version: 0.23.0-exp.26
 
 devDependencies:
   '@sveltejs/adapter-node':
@@ -995,8 +995,8 @@ packages:
     resolution: {integrity: sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==}
     dev: false
 
-  /remult@0.22.10:
-    resolution: {integrity: sha512-8TBfryvxEXLFXHKpaXaiQ/O6nXeYyehW8AUx0XddpP9o/JM2TedZKFe680uLLBGWgC3fNAUQKKwRk3H8pKd68g==}
+  /remult@0.23.0-exp.26:
+    resolution: {integrity: sha512-I6qHqD0pMOG139fmAcWFWCAPF3C8G7VdkuOzjgAp6VHgiPuBadWS/PuqqeFNXeOPpbkY1bLpM3a3NLz7kzdpPg==}
     dependencies:
       '@paralleldrive/cuid2': 2.2.2
       reflect-metadata: 0.1.13

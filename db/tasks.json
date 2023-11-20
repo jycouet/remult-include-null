@@ -1,12 +1,14 @@
 [
   {
-    "id": 1,
-    "title": "sdsd",
-    "completed": false
+    "title": "task1",
+    "completed": false,
+    "categoryId": 1,
+    "id": 1
   },
   {
-    "id": 2,
-    "title": "dsds",
-    "completed": false
+    "title": "task2",
+    "completed": false,
+    "categoryId": null,
+    "id": 2
   }
 ]
